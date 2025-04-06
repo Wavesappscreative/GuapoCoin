@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #fff8e1;
+    color: #333;
+    text-align: center;
+}
+.hero {
+    background: linear-gradient(135deg, #ff6f00, #ffca28);
+    color: white;
+    padding: 3rem 1rem;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.hero p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background: #bf360c;
+    color: white;
+    padding: 0.9rem 1.7rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #dd2c00;
+}
+.about, .holders, .why {
+    padding: 2.5rem 1rem;
+}
+.about h2, .holders h2, .why h2, .gallery h2 {
+    color: #e65100;
+    font-size: 2rem;
+}
+code {
+    display: block;
+    background: #ffe0b2;
+    padding: 0.8rem;
+    margin: 1.2rem auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #bf360c;
+}
+.gallery {
+    background: #fff3e0;
+    padding: 2.5rem 1rem;
+}
+.gallery .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.gallery img {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.75rem 0;
+    font-weight: bold;
+    color: #6d4c41;
+}
+footer {
+    background: #3e2723;
+    color: #fff;
+    padding: 2rem 1rem;
+}
+footer .btn {
+    margin-top: 1rem;
+    background: #ff8f00;
+    color: #fff;
+}
